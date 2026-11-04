@@ -131,30 +131,6 @@ The external table allows business users to query the Gold dataset using SQL wit
 
 *Illustrative output values.*
 
-## Project Folder Structure
-
-```text
-Retail-Transaction-Analytics/
-│
-├── data/
-│   └── source/
-│
-├── adf/
-│   └── pipeline-documentation.md
-│
-├── notebooks/
-│   ├── silver_transformation.py
-│   └── gold_aggregation.py
-│
-├── sql/
-│   └── create_external_table.sql
-│
-├── architecture/
-│   └── architecture.png
-│
-└── README.md
-```
-
 ## Key Learning Outcomes
 
 - Building end-to-end Azure data pipelines.
@@ -167,14 +143,6 @@ Retail-Transaction-Analytics/
 - Creating external SQL tables in Azure Synapse.
 - Making business-ready data available for reporting.
 
-## Future Enhancements
-
-- Build a Power BI dashboard using the Gold dataset.
-- Automate scheduled pipeline execution.
-- Implement incremental data ingestion.
-- Add data quality validation checks.
-- Implement pipeline monitoring and failure notifications.
-
 ## Conclusion
 
 This project demonstrates how raw retail transaction events can be transformed into reliable, business-ready daily sales information using Azure Data Engineering services.
@@ -183,6 +151,6 @@ It provides an end-to-end understanding of data ingestion, cloud storage, distri
 
 ## Author
 
-**Your Name**
+Neha Mahajan
 
 Aspiring Data Engineer | Python | SQL | PySpark | Azure | Databricks | ADLS Gen2
